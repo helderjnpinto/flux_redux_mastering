@@ -42,4 +42,26 @@ Given the same inputs, a pure [idempotent] function will always return the same 
 
 
 
+## Redux
+
+- Manage app state
+- works with any view engine
+- Mandatory reducers
+- Simgle store and dispatcher
+- Dispatcher is part of the store
+
+
+### Concepts
+
+* State: App data and modify in response to actions 
+* Actions: Describe modifications to state
+* Reducers: Process actions returns a new state
+* Store: Where state is accessed, receives actions
+
+
+#### Redux and Immutability:
+    Once the constructor for and [immutable] obj has completed execution that instance can't be altered.
+
+
+
 
