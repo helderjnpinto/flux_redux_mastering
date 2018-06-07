@@ -63,5 +63,11 @@ Given the same inputs, a pure [idempotent] function will always return the same 
     Once the constructor for and [immutable] obj has completed execution that instance can't be altered.
 
 
+### Middleware:
+    Responde to actions in a unique way
+    Use cases: 
+        - Debug easily
+        - Add support for promises
+        - Analytics
 
 
